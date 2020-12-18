@@ -28,7 +28,7 @@ typedef  unsigned char  uint8;
 typedef  unsigned int   uint16; 
 
 uint8   byte_mirror( uint8);
-uint16  Crc_Calc(void);          //START        DATA                          CRC         rnd  
+uint16  Crc_Calc(void);          //START        DATA                          CRC         END  
 uint8   UartRxBuffer[BUFFER_SIZE]={0x7E, 0xA0, 0x08, 0x03, 0x02, 0xFF, 0x93, 0xCA, 0xE4, 0x7E};
 
 
